@@ -4,7 +4,9 @@ import axios from "axios";
 import SkeletonForDestinationAndTopSelling from "../SkeletonForDestinationAndTopSelling";
 
 const fetchTopSelling = async () => {
-  const res = await axios.get("http://localhost:8080/api/packages/top-selling");
+  const res = await axios.get(
+    "https://ab-media-co-backend.vercel.app/api/packages/top-selling"
+  );
 
   return res.data;
 };

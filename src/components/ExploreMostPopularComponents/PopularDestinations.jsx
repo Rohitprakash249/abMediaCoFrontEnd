@@ -5,7 +5,9 @@ import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import SingleDestination from "./SingleDestination";
 const fetchDestinations = async () => {
-  const res = await axios.get("http://localhost:8080/api/destinations");
+  const res = await axios.get(
+    "https://ab-media-co-backend.vercel.app/api/destinations"
+  );
 
   return res.data;
 };
