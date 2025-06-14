@@ -11,7 +11,7 @@ export default function Header(props) {
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
-          className="h-svh w-full bg-purple-200"
+          className="h-svh w-full "
         >
           <div className="flex flex-col gap-8 h-svh mx-[10%] md:w-[50%] justify-center ">
             <div className="flex flex-col gap-5">
